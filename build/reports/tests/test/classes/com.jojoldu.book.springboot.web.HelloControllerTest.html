@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.jojoldu.book.springboot.web.HelloControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.jojoldu.book.springboot.web.HelloControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.jojoldu.book.springboot.web.html">com.jojoldu.book.springboot.web</a> &gt; HelloControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.472s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">helloDto가_리턴된다</td>
+<td class="success">0.282s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">hello가_리턴된다</td>
+<td class="success">1.190s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-08-14T22:57:34.425+0900 DEBUG SpringJUnit4ClassRunner constructor called with [class com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.444+0900 DEBUG Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2022-08-14T22:57:34.467+0900 DEBUG Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2022-08-14T22:57:34.503+0900 DEBUG Instantiating TestContextBootstrapper for test class [com.jojoldu.book.springboot.web.HelloControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+2022-08-14T22:57:34.547+0900 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jojoldu.book.springboot.web.HelloControllerTest], using SpringBootContextLoader
+2022-08-14T22:57:34.554+0900 DEBUG Did not detect default resource location for test class [com.jojoldu.book.springboot.web.HelloControllerTest]: class path resource [com/jojoldu/book/springboot/web/HelloControllerTest-context.xml] does not exist
+2022-08-14T22:57:34.556+0900 DEBUG Did not detect default resource location for test class [com.jojoldu.book.springboot.web.HelloControllerTest]: class path resource [com/jojoldu/book/springboot/web/HelloControllerTestContext.groovy] does not exist
+2022-08-14T22:57:34.556+0900 INFO Could not detect default resource locations for test class [com.jojoldu.book.springboot.web.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-08-14T22:57:34.558+0900 INFO Could not detect default configuration classes for test class [com.jojoldu.book.springboot.web.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-08-14T22:57:34.679+0900 DEBUG Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.849+0900 DEBUG Identified candidate component class: file [C:\Users\kkang\IdeaProjects\freelec-springboot2-webservice\build\classes\java\main\com\jojoldu\book\springboot\Application.class]
+2022-08-14T22:57:34.851+0900 INFO Found @SpringBootConfiguration com.jojoldu.book.springboot.Application for test class com.jojoldu.book.springboot.web.HelloControllerTest
+2022-08-14T22:57:34.854+0900 DEBUG @TestExecutionListeners is not present for class [com.jojoldu.book.springboot.web.HelloControllerTest]: using defaults.
+2022-08-14T22:57:34.855+0900 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-08-14T22:57:34.901+0900 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4bb8855f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57fae983, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4a29f290, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4bee18dc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44f3fe83, org.springframework.test.context.transaction.TransactionalTestExecutionListener@44c5a16f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@417d6615, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7a6ebe1e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@21325036, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@489543a6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6272c96f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6de30571, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ee34b1b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c89bb12]
+2022-08-14T22:57:34.908+0900 DEBUG Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.909+0900 DEBUG Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.911+0900 DEBUG Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.912+0900 DEBUG Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.923+0900 DEBUG Before test class: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2022-08-14T22:57:34.925+0900 DEBUG Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.925+0900 DEBUG Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:34.938+0900 DEBUG Performing dependency injection for test context [[DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@31cb96e1, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+2022-08-14T22:57:35.829+0900 DEBUG Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+2022-08-14T22:57:36.493+0900 DEBUG Application started with classpath: unknown
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.7.RELEASE)
+
+2022-08-14T22:57:36.975+0900 INFO Starting HelloControllerTest on LAPTOP-KUNOOOVE with PID 18364 (started by kkang in C:\Users\kkang\IdeaProjects\freelec-springboot2-webservice)
+2022-08-14T22:57:36.977+0900 DEBUG Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2022-08-14T22:57:36.981+0900 INFO No active profile set, falling back to default profiles: default
+2022-08-14T22:57:36.982+0900 DEBUG Loading source class com.jojoldu.book.springboot.Application
+2022-08-14T22:57:37.026+0900 DEBUG Loaded expression factory via original TCCL
+2022-08-14T22:57:37.036+0900 DEBUG Loaded config file 'file:/C:/Users/kkang/IdeaProjects/freelec-springboot2-webservice/build/resources/test/application.properties' (classpath:/application.properties)
+2022-08-14T22:57:37.039+0900 DEBUG Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2cc04358
+2022-08-14T22:57:37.051+0900 DEBUG HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-08-14T22:57:37.052+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-08-14T22:57:37.052+0900 DEBUG HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-08-14T22:57:37.053+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-08-14T22:57:37.053+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-08-14T22:57:37.104+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-08-14T22:57:37.175+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2022-08-14T22:57:37.467+0900 DEBUG Identified candidate component class: file [C:\Users\kkang\IdeaProjects\freelec-springboot2-webservice\build\classes\java\main\com\jojoldu\book\springboot\config\WebConfig.class]
+2022-08-14T22:57:37.480+0900 DEBUG Identified candidate component class: file [C:\Users\kkang\IdeaProjects\freelec-springboot2-webservice\build\classes\java\main\com\jojoldu\book\springboot\config\auth\LoginUserArgumentResolver.class]
+2022-08-14T22:57:37.564+0900 DEBUG Identified candidate component class: file [C:\Users\kkang\IdeaProjects\freelec-springboot2-webservice\build\classes\java\main\com\jojoldu\book\springboot\web\HelloController.class]
+2022-08-14T22:57:37.732+0900 DEBUG Found key 'spring.boot.enableautoconfiguration' in PropertySource 'configurationProperties' with value of type String
+2022-08-14T22:57:38.185+0900 DEBUG Found key 'spring.test.mockmvc.secure' in PropertySource 'Annotations' with value of type Boolean
+2022-08-14T22:57:38.286+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2022-08-14T22:57:38.699+0900 DEBUG Found key 'spring.test.mockmvc.secure' in PropertySource 'Annotations' with value of type Boolean
+2022-08-14T22:57:38.811+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor'
+2022-08-14T22:57:39.265+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+2022-08-14T22:57:39.296+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-08-14T22:57:39.299+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+2022-08-14T22:57:39.300+0900 DEBUG Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2022-08-14T22:57:39.302+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-08-14T22:57:39.310+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-08-14T22:57:39.313+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-08-14T22:57:39.322+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-08-14T22:57:39.322+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+2022-08-14T22:57:39.323+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-08-14T22:57:39.333+0900 DEBUG Creating shared instance of singleton bean 'methodValidationPostProcessor'
+2022-08-14T22:57:39.363+0900 DEBUG Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+2022-08-14T22:57:39.427+0900 DEBUG Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2022-08-14T22:57:39.472+0900 DEBUG Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1ff15a50]
+2022-08-14T22:57:39.475+0900 DEBUG Creating shared instance of singleton bean 'application'
+2022-08-14T22:57:39.490+0900 DEBUG Creating shared instance of singleton bean 'webConfig'
+2022-08-14T22:57:39.492+0900 DEBUG Cannot find '.class' file for class [class com.jojoldu.book.springboot.config.WebConfig$$EnhancerBySpringCGLIB$$242d2beb] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.494+0900 DEBUG Creating shared instance of singleton bean 'loginUserArgumentResolver'
+2022-08-14T22:57:39.502+0900 DEBUG Autowiring by type from bean name 'loginUserArgumentResolver' via constructor to bean named 'com.sun.proxy.$Proxy100@8bd076a'
+2022-08-14T22:57:39.507+0900 DEBUG Autowiring by type from bean name 'webConfig' via constructor to bean named 'loginUserArgumentResolver'
+2022-08-14T22:57:39.521+0900 DEBUG Creating shared instance of singleton bean 'helloController'
+2022-08-14T22:57:39.529+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-08-14T22:57:39.533+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2022-08-14T22:57:39.535+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration$$EnhancerBySpringCGLIB$$8d210c00] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.538+0900 DEBUG Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2022-08-14T22:57:39.562+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration' via constructor to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2022-08-14T22:57:39.574+0900 DEBUG Creating shared instance of singleton bean 'taskExecutorBuilder'
+2022-08-14T22:57:39.611+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration'
+2022-08-14T22:57:39.626+0900 DEBUG Creating shared instance of singleton bean 'defaultValidator'
+2022-08-14T22:57:39.639+0900 DEBUG Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2022-08-14T22:57:39.639+0900 DEBUG Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2022-08-14T22:57:39.640+0900 DEBUG Loaded expression factory via original TCCL
+2022-08-14T22:57:39.664+0900 DEBUG Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2022-08-14T22:57:39.664+0900 DEBUG Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2022-08-14T22:57:39.666+0900 DEBUG Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-08-14T22:57:39.667+0900 DEBUG Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-08-14T22:57:39.669+0900 DEBUG Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-08-14T22:57:39.671+0900 DEBUG Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-08-14T22:57:39.671+0900 DEBUG Trying to load META-INF/validation.xml via user class loader
+2022-08-14T22:57:39.672+0900 DEBUG Trying to load META-INF/validation.xml via TCCL
+2022-08-14T22:57:39.674+0900 DEBUG Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-08-14T22:57:39.675+0900 DEBUG No META-INF/validation.xml found. Using annotation based configuration only.
+2022-08-14T22:57:39.687+0900 DEBUG HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-08-14T22:57:39.688+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-08-14T22:57:39.688+0900 DEBUG HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-08-14T22:57:39.689+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-08-14T22:57:39.689+0900 DEBUG HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-08-14T22:57:39.691+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2022-08-14T22:57:39.706+0900 DEBUG Creating shared instance of singleton bean 'error'
+2022-08-14T22:57:39.719+0900 DEBUG Creating shared instance of singleton bean 'beanNameViewResolver'
+2022-08-14T22:57:39.736+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2022-08-14T22:57:39.738+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration$$EnhancerBySpringCGLIB$$41c24d4f] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.740+0900 DEBUG Creating shared instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2022-08-14T22:57:39.765+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:39.765+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2022-08-14T22:57:39.774+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2022-08-14T22:57:39.776+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$$EnhancerBySpringCGLIB$$2d2d78af] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.777+0900 DEBUG Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-08-14T22:57:39.826+0900 DEBUG Creating shared instance of singleton bean 'dispatcherServletPath'
+2022-08-14T22:57:39.827+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration'
+2022-08-14T22:57:39.828+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration$$EnhancerBySpringCGLIB$$bfe42e67] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.830+0900 DEBUG Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-08-14T22:57:39.835+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:39.836+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-08-14T22:57:39.858+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-08-14T22:57:39.858+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'dispatcherServletPath'
+2022-08-14T22:57:39.869+0900 DEBUG Creating shared instance of singleton bean 'errorAttributes'
+2022-08-14T22:57:39.884+0900 DEBUG Creating shared instance of singleton bean 'basicErrorController'
+2022-08-14T22:57:39.885+0900 DEBUG Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2022-08-14T22:57:39.896+0900 DEBUG Creating shared instance of singleton bean 'errorPageCustomizer'
+2022-08-14T22:57:39.903+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+2022-08-14T22:57:39.906+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration$$EnhancerBySpringCGLIB$$caaf96d5] - unable to determine constructor/method parameter names
+2022-08-14T22:57:39.906+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2022-08-14T22:57:39.921+0900 DEBUG Creating shared instance of singleton bean 'faviconHandlerMapping'
+2022-08-14T22:57:39.934+0900 DEBUG Creating shared instance of singleton bean 'faviconRequestHandler'
+2022-08-14T22:57:40.014+0900 DEBUG Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-08-14T22:57:40.016+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2022-08-14T22:57:40.016+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$6c6ec3aa] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.019+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2022-08-14T22:57:40.020+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6ecdbab8'
+2022-08-14T22:57:40.043+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2022-08-14T22:57:40.045+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$$EnhancerBySpringCGLIB$$e728e8f] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.046+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+2022-08-14T22:57:40.046+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-08-14T22:57:40.046+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6ecdbab8'
+2022-08-14T22:57:40.056+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2022-08-14T22:57:40.058+0900 DEBUG Cannot find '.class' file for class [class org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$62e5a17d] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.059+0900 DEBUG Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:40.075+0900 DEBUG Creating shared instance of singleton bean 'pageableCustomizer'
+2022-08-14T22:57:40.075+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+2022-08-14T22:57:40.076+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration$$EnhancerBySpringCGLIB$$ed18294b] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.077+0900 DEBUG Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2022-08-14T22:57:40.081+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+2022-08-14T22:57:40.095+0900 DEBUG Creating shared instance of singleton bean 'sortCustomizer'
+2022-08-14T22:57:40.099+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+2022-08-14T22:57:40.106+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration'
+2022-08-14T22:57:40.122+0900 DEBUG Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2022-08-14T22:57:40.158+0900 DEBUG Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2022-08-14T22:57:40.171+0900 DEBUG Creating shared instance of singleton bean 'messageConverters'
+2022-08-14T22:57:40.171+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2022-08-14T22:57:40.173+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$$EnhancerBySpringCGLIB$$1bb53ebe] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.177+0900 DEBUG Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2022-08-14T22:57:40.178+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2022-08-14T22:57:40.181+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration$$EnhancerBySpringCGLIB$$4ec3055e] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.183+0900 DEBUG Creating shared instance of singleton bean 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2022-08-14T22:57:40.187+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' via constructor to bean named 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties'
+2022-08-14T22:57:40.221+0900 DEBUG Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2022-08-14T22:57:40.222+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2022-08-14T22:57:40.242+0900 DEBUG Creating shared instance of singleton bean 'jacksonObjectMapper'
+2022-08-14T22:57:40.243+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2022-08-14T22:57:40.259+0900 DEBUG Creating shared instance of singleton bean 'jacksonObjectMapperBuilder'
+2022-08-14T22:57:40.261+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2022-08-14T22:57:40.267+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$f61b4d4] - unable to determine constructor/method parameter names
+2022-08-14T22:57:40.272+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:40.300+0900 DEBUG Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2022-08-14T22:57:40.302+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2022-08-14T22:57:40.373+0900 DEBUG Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2022-08-14T22:57:40.389+0900 DEBUG Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:40.389+0900 DEBUG Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2022-08-14T22:57:40.413+0900 DEBUG Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2022-08-14T22:57:40.425+0900 DEBUG Creating shared instance of singleton bean 'parameterNamesModule'
+2022-08-14T22:57:40.427+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2022-08-14T22:57:40.473+0900 DEBUG Creating shared instance of singleton bean 'jsonComponentModule'
+2022-08-14T22:57:40.473+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2022-08-14T22:57:40.499+0900 DEBUG Creating shared instance of singleton bean 'jacksonGeoModule'
+2022-08-14T22:57:40.499+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+2022-08-14T22:57:40.522+0900 DEBUG Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+2022-08-14T22:57:40.581+0900 DEBUG Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+2022-08-14T22:57:40.716+0900 DEBUG Creating shared instance of singleton bean 'mvcConversionService'
+2022-08-14T22:57:40.760+0900 DEBUG Creating shared instance of singleton bean 'mvcValidator'
+2022-08-14T22:57:40.772+0900 DEBUG Creating shared instance of singleton bean 'sortResolver'
+2022-08-14T22:57:40.790+0900 DEBUG Creating shared instance of singleton bean 'pageableResolver'
+2022-08-14T22:57:40.810+0900 DEBUG Creating shared instance of singleton bean 'applicationTaskExecutor'
+2022-08-14T22:57:40.811+0900 DEBUG Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+2022-08-14T22:57:40.848+0900 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-14T22:57:40.884+0900 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-14T22:57:40.963+0900 DEBUG Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2022-08-14T22:57:40.982+0900 DEBUG Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2022-08-14T22:57:41.052+0900 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2022-08-14T22:57:41.053+0900 DEBUG Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2022-08-14T22:57:41.054+0900 DEBUG Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.065+0900 INFO Adding welcome page template: index
+2022-08-14T22:57:41.094+0900 DEBUG Creating shared instance of singleton bean 'mvcPathMatcher'
+2022-08-14T22:57:41.099+0900 DEBUG Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2022-08-14T22:57:41.102+0900 DEBUG Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2022-08-14T22:57:41.105+0900 DEBUG Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2022-08-14T22:57:41.128+0900 DEBUG Creating shared instance of singleton bean 'resourceHandlerMapping'
+2022-08-14T22:57:41.135+0900 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-14T22:57:41.135+0900 DEBUG Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2022-08-14T22:57:41.136+0900 DEBUG Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2022-08-14T22:57:41.143+0900 DEBUG Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2022-08-14T22:57:41.148+0900 DEBUG Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2022-08-14T22:57:41.153+0900 DEBUG Creating shared instance of singleton bean 'handlerExceptionResolver'
+2022-08-14T22:57:41.161+0900 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-14T22:57:41.170+0900 DEBUG Creating shared instance of singleton bean 'mvcViewResolver'
+2022-08-14T22:57:41.189+0900 DEBUG Creating shared instance of singleton bean 'defaultViewResolver'
+2022-08-14T22:57:41.223+0900 DEBUG Creating shared instance of singleton bean 'viewResolver'
+2022-08-14T22:57:41.225+0900 DEBUG Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6ecdbab8'
+2022-08-14T22:57:41.243+0900 DEBUG Creating shared instance of singleton bean 'mustacheViewResolver'
+2022-08-14T22:57:41.243+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.mustache.MustacheServletWebConfiguration'
+2022-08-14T22:57:41.244+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.mustache.MustacheServletWebConfiguration$$EnhancerBySpringCGLIB$$97da8bf4] - unable to determine constructor/method parameter names
+2022-08-14T22:57:41.245+0900 DEBUG Creating shared instance of singleton bean 'spring.mustache-org.springframework.boot.autoconfigure.mustache.MustacheProperties'
+2022-08-14T22:57:41.251+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.mustache.MustacheServletWebConfiguration' via constructor to bean named 'spring.mustache-org.springframework.boot.autoconfigure.mustache.MustacheProperties'
+2022-08-14T22:57:41.259+0900 DEBUG Creating shared instance of singleton bean 'mustacheCompiler'
+2022-08-14T22:57:41.259+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration'
+2022-08-14T22:57:41.260+0900 DEBUG Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration$$EnhancerBySpringCGLIB$$38072b94] - unable to determine constructor/method parameter names
+2022-08-14T22:57:41.261+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration' via constructor to bean named 'spring.mustache-org.springframework.boot.autoconfigure.mustache.MustacheProperties'
+2022-08-14T22:57:41.261+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration' via constructor to bean named 'environment'
+2022-08-14T22:57:41.261+0900 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.271+0900 DEBUG Creating shared instance of singleton bean 'mustacheTemplateLoader'
+2022-08-14T22:57:41.280+0900 DEBUG Autowiring by type from bean name 'mustacheCompiler' via factory method to bean named 'mustacheTemplateLoader'
+2022-08-14T22:57:41.317+0900 DEBUG Autowiring by type from bean name 'mustacheViewResolver' via factory method to bean named 'mustacheCompiler'
+2022-08-14T22:57:41.339+0900 DEBUG Creating shared instance of singleton bean 'requestContextFilter'
+2022-08-14T22:57:41.367+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2022-08-14T22:57:41.376+0900 DEBUG Creating shared instance of singleton bean 'hiddenHttpMethodFilter'
+2022-08-14T22:57:41.408+0900 DEBUG Creating shared instance of singleton bean 'formContentFilter'
+2022-08-14T22:57:41.453+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2022-08-14T22:57:41.468+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+2022-08-14T22:57:41.482+0900 DEBUG Creating shared instance of singleton bean 'mockMvcBuilder'
+2022-08-14T22:57:41.483+0900 DEBUG Creating shared instance of singleton bean 'springBootMockMvcBuilderCustomizer'
+2022-08-14T22:57:41.496+0900 DEBUG Creating shared instance of singleton bean 'securityMockMvcBuilderCustomizer'
+2022-08-14T22:57:41.496+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration'
+2022-08-14T22:57:41.547+0900 DEBUG Autowiring by type from bean name 'mockMvcBuilder' via factory method to bean named 'springBootMockMvcBuilderCustomizer'
+2022-08-14T22:57:41.548+0900 DEBUG Autowiring by type from bean name 'mockMvcBuilder' via factory method to bean named 'securityMockMvcBuilderCustomizer'
+2022-08-14T22:57:41.565+0900 DEBUG Creating shared instance of singleton bean 'springSecurityFilterChain'
+2022-08-14T22:57:41.565+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+2022-08-14T22:57:41.582+0900 DEBUG Creating shared instance of singleton bean 'objectPostProcessor'
+2022-08-14T22:57:41.582+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2022-08-14T22:57:41.592+0900 DEBUG Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6ecdbab8'
+2022-08-14T22:57:41.660+0900 DEBUG Creating shared instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+2022-08-14T22:57:41.662+0900 DEBUG Autowiring by type from bean name 'autowiredWebSecurityConfigurersIgnoreParents' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6ecdbab8'
+2022-08-14T22:57:41.675+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$DefaultConfigurerAdapter'
+2022-08-14T22:57:41.708+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+2022-08-14T22:57:41.718+0900 DEBUG Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+2022-08-14T22:57:41.719+0900 DEBUG Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.725+0900 DEBUG Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+2022-08-14T22:57:41.726+0900 DEBUG Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.732+0900 DEBUG Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+2022-08-14T22:57:41.732+0900 DEBUG Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.793+0900 DEBUG Creating shared instance of singleton bean 'authenticationManagerBuilder'
+2022-08-14T22:57:41.798+0900 DEBUG Creating shared instance of singleton bean 'authenticationEventPublisher'
+2022-08-14T22:57:41.799+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration'
+2022-08-14T22:57:41.810+0900 DEBUG Autowiring by type from bean name 'authenticationEventPublisher' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@2cc04358'
+2022-08-14T22:57:41.828+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration'
+2022-08-14T22:57:41.837+0900 DEBUG Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration$$EnhancerBySpringCGLIB$$1f109d5f@632cf7d3}
+2022-08-14T22:57:41.840+0900 DEBUG Creating shared instance of singleton bean 'inMemoryUserDetailsManager'
+2022-08-14T22:57:41.840+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration'
+2022-08-14T22:57:41.849+0900 DEBUG Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2022-08-14T22:57:41.856+0900 DEBUG Autowiring by type from bean name 'inMemoryUserDetailsManager' via factory method to bean named 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2022-08-14T22:57:41.865+0900 INFO 
+
+Using generated security password: f0185f75-753f-4ab2-a42a-48afe53a52a3
+
+2022-08-14T22:57:42.030+0900 DEBUG Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).
+2022-08-14T22:57:42.344+0900 DEBUG Adding web access control expression 'authenticated', for any request
+2022-08-14T22:57:42.377+0900 DEBUG Validated configuration attributes
+2022-08-14T22:57:42.379+0900 DEBUG Validated configuration attributes
+2022-08-14T22:57:42.435+0900 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3af36922, org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e, org.springframework.security.web.header.HeaderWriterFilter@34cd65ac, org.springframework.security.web.csrf.CsrfFilter@1b31af02, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11bfffb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@394fb736, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@609b041c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c68d0db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d3b881, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@539316bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@474e34e4, org.springframework.security.web.session.SessionManagementFilter@5c53c235, org.springframework.security.web.access.ExceptionTranslationFilter@27bc1d44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@394a6d2b]
+2022-08-14T22:57:42.467+0900 DEBUG Mapping filters: hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], springSecurityFilterChain urls=[/*]
+2022-08-14T22:57:42.467+0900 DEBUG Mapping servlets: 
+2022-08-14T22:57:42.483+0900 DEBUG Creating shared instance of singleton bean 'mockMvc'
+2022-08-14T22:57:42.483+0900 DEBUG Autowiring by type from bean name 'mockMvc' via factory method to bean named 'mockMvcBuilder'
+2022-08-14T22:57:42.545+0900 INFO Initializing Spring TestDispatcherServlet ''
+2022-08-14T22:57:42.546+0900 INFO Initializing Servlet ''
+2022-08-14T22:57:42.586+0900 DEBUG enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-14T22:57:42.586+0900 INFO Completed initialization in 40 ms
+2022-08-14T22:57:42.599+0900 DEBUG Creating shared instance of singleton bean 'dispatcherServlet'
+2022-08-14T22:57:42.600+0900 DEBUG Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'mockMvc'
+2022-08-14T22:57:42.640+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration'
+2022-08-14T22:57:42.652+0900 DEBUG Creating shared instance of singleton bean 'delegatingApplicationListener'
+2022-08-14T22:57:42.658+0900 DEBUG Creating shared instance of singleton bean 'webSecurityExpressionHandler'
+2022-08-14T22:57:42.660+0900 DEBUG Creating shared instance of singleton bean 'privilegeEvaluator'
+2022-08-14T22:57:42.667+0900 DEBUG Creating shared instance of singleton bean 'requestDataValueProcessor'
+2022-08-14T22:57:42.673+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration'
+2022-08-14T22:57:42.676+0900 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration'
+2022-08-14T22:57:42.715+0900 DEBUG 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MockMvcAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   MockMvcAutoConfiguration#dispatcherServlet matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MockMvcAutoConfiguration#dispatcherServletPath matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MockMvcAutoConfiguration#mockMvc matched:
+      - @ConditionalOnMissingBean (types: org.springframework.test.web.servlet.MockMvc; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MockMvcAutoConfiguration#mockMvcBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.test.web.servlet.MockMvcBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MockMvcSecurityAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.test.mockmvc.secure=true) matched (OnPropertyCondition)
+
+   MockMvcSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors' (OnClassCondition)
+
+   MockMvcSecurityConfiguration#securityMockMvcBuilderCustomizer matched:
+      - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) found bean 'springSecurityFilterChain' (OnBeanCondition)
+
+   MustacheAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   MustacheAutoConfiguration#mustacheCompiler matched:
+      - @ConditionalOnMissingBean (types: com.samskivert.mustache.Mustache$Compiler; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MustacheAutoConfiguration#mustacheTemplateLoader matched:
+      - @ConditionalOnMissingBean (types: com.samskivert.mustache.Mustache$TemplateLoader; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MustacheServletWebConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   MustacheServletWebConfiguration#mustacheViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.view.MustacheViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration NONE cache type (CacheCondition)
+
+   SecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityAutoConfiguration#authenticationEventPublisher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationEventPublisher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#pageableCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#sortCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#taskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.validation.executable.ExecutableValidator' (OnClassCondition)
+      - @ConditionalOnResource found location classpath:META-INF/services/javax.validation.spi.ValidationProvider (OnResourceCondition)
+
+   ValidationAutoConfiguration#defaultValidator matched:
+      - @ConditionalOnMissingBean (types: javax.validation.Validator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter matched:
+      - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.HiddenHttpMethodFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver; types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration matched:
+      - @ConditionalOnProperty (spring.mvc.favicon.enabled) matched (OnPropertyCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$DefaultConfigurerAdapter'; @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.github.benmanes.caffeine.cache.Caffeine', 'org.springframework.cache.caffeine.CaffeineCacheManager' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'com.couchbase.client.spring.cache.CouchbaseCacheManager' (OnClassCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'net.sf.ehcache.Cache', 'org.springframework.cache.ehcache.EhCacheCacheManager' (OnClassCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) did not find any beans of type org.springframework.web.servlet.DispatcherServlet (OnBeanCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GenericCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration unknown cache type (CacheCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.hazelcast.core.HazelcastInstance', 'com.hazelcast.spring.cache.HazelcastCacheManager' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.Resource' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.cache.Caching', 'org.springframework.cache.jcache.JCacheCacheManager' (OnClassCondition)
+
+   JacksonAutoConfiguration.JodaDateTimeJacksonConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.joda.time.DateTime', 'com.fasterxml.jackson.datatype.joda.ser.DateTimeSerializer', 'com.fasterxml.jackson.datatype.joda.cfg.JacksonJodaDateFormat' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MockMvcWebClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.gargoylesoftware.htmlunit.WebClient' (OnClassCondition)
+
+   MockMvcWebDriverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.openqa.selenium.htmlunit.HtmlUnitDriver' (OnClassCondition)
+
+   MustacheReactiveWebConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   SecurityDataConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
+
+   SimpleCacheConfiguration:
+      Did not match:
+         - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration unknown cache type (CacheCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring5.SpringTemplateEngine' (OnClassCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#localeResolver:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.locale) did not find property 'locale' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-08-14T22:57:42.730+0900 INFO Started HelloControllerTest in 6.856 seconds (JVM running for 15.38)
+2022-08-14T22:57:42.733+0900 DEBUG Creating new Restarter for thread Thread[Test worker,5,main]
+2022-08-14T22:57:42.733+0900 DEBUG Storing ApplicationContext in cache under key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:42.733+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2022-08-14T22:57:42.748+0900 DEBUG Before test method: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@31cb96e1, testMethod = hello가_리턴된다@HelloControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-08-14T22:57:42.756+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:42.757+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2022-08-14T22:57:42.767+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:42.768+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+2022-08-14T22:57:43.785+0900 DEBUG Invoking method 'getFilters' on target object [FilterChainProxy[Filter Chains: [[ any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3af36922, org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e, org.springframework.security.web.header.HeaderWriterFilter@34cd65ac, org.springframework.security.web.csrf.CsrfFilter@1b31af02, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11bfffb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@394fb736, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@609b041c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c68d0db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d3b881, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@539316bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@474e34e4, org.springframework.security.web.session.SessionManagementFilter@5c53c235, org.springframework.security.web.access.ExceptionTranslationFilter@27bc1d44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@394a6d2b]]]]] with arguments {org.springframework.mock.web.MockHttpServletRequest@2e1ba142}
+2022-08-14T22:57:43.787+0900 DEBUG Getting field 'repo' from target object [org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e] or target class [class org.springframework.security.web.context.SecurityContextPersistenceFilter]
+2022-08-14T22:57:43.787+0900 DEBUG Invoking method 'getFilters' on target object [FilterChainProxy[Filter Chains: [[ any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3af36922, org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e, org.springframework.security.web.header.HeaderWriterFilter@34cd65ac, org.springframework.security.web.csrf.CsrfFilter@1b31af02, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11bfffb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@394fb736, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@609b041c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c68d0db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d3b881, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@539316bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@474e34e4, org.springframework.security.web.session.SessionManagementFilter@5c53c235, org.springframework.security.web.access.ExceptionTranslationFilter@27bc1d44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@394a6d2b]]]]] with arguments {org.springframework.mock.web.MockHttpServletRequest@2e1ba142}
+2022-08-14T22:57:43.788+0900 DEBUG Setting field 'repo' of type [null] on target object [org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e] or target class [class org.springframework.security.web.context.SecurityContextPersistenceFilter] to value [org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors$SecurityContextRequestPostProcessorSupport$TestSecurityContextRepository@102af1bb]
+2022-08-14T22:57:43.789+0900 DEBUG No HttpSession currently exists
+2022-08-14T22:57:43.790+0900 DEBUG No SecurityContext was available from the HttpSession: null. A new one will be created.
+2022-08-14T22:57:43.799+0900 DEBUG HttpSession being created as SecurityContext is non-default
+2022-08-14T22:57:43.803+0900 DEBUG SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@ca25360: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER' stored to HttpSession: 'org.springframework.mock.web.MockHttpSession@32b95de
+2022-08-14T22:57:43.818+0900 DEBUG /hello at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2022-08-14T22:57:43.820+0900 DEBUG /hello at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2022-08-14T22:57:43.821+0900 DEBUG Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@ca25360: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER'
+2022-08-14T22:57:43.821+0900 DEBUG /hello at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2022-08-14T22:57:43.823+0900 DEBUG /hello at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2022-08-14T22:57:43.826+0900 DEBUG /hello at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2022-08-14T22:57:43.826+0900 DEBUG Request 'GET /hello' doesn't match 'POST /logout'
+2022-08-14T22:57:43.826+0900 DEBUG /hello at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2022-08-14T22:57:43.826+0900 DEBUG Request 'GET /hello' doesn't match 'POST /login'
+2022-08-14T22:57:43.826+0900 DEBUG /hello at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2022-08-14T22:57:43.827+0900 DEBUG /hello at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2022-08-14T22:57:43.827+0900 DEBUG Checking match of request : '/hello'; against '/logout'
+2022-08-14T22:57:43.827+0900 DEBUG /hello at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2022-08-14T22:57:43.829+0900 DEBUG /hello at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2022-08-14T22:57:43.830+0900 DEBUG saved request doesn't match
+2022-08-14T22:57:43.830+0900 DEBUG /hello at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2022-08-14T22:57:43.833+0900 DEBUG /hello at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2022-08-14T22:57:43.834+0900 DEBUG SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER'
+2022-08-14T22:57:43.834+0900 DEBUG /hello at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2022-08-14T22:57:43.834+0900 DEBUG /hello at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2022-08-14T22:57:43.834+0900 DEBUG /hello at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2022-08-14T22:57:43.836+0900 DEBUG Secure object: FilterInvocation: URL: /hello; Attributes: [authenticated]
+2022-08-14T22:57:43.836+0900 DEBUG Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER
+2022-08-14T22:57:43.845+0900 DEBUG Voter: org.springframework.security.web.access.expression.WebExpressionVoter@698ac187, returned: 1
+2022-08-14T22:57:43.845+0900 DEBUG Authorization successful
+2022-08-14T22:57:43.845+0900 DEBUG RunAsManager did not change Authentication object
+2022-08-14T22:57:43.845+0900 DEBUG /hello reached end of additional filter chain; proceeding with original chain
+2022-08-14T22:57:43.852+0900 DEBUG GET &quot;/hello&quot;, parameters={}
+2022-08-14T22:57:43.857+0900 DEBUG Mapped to public java.lang.String com.jojoldu.book.springboot.web.HelloController.hello()
+2022-08-14T22:57:43.902+0900 DEBUG Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-14T22:57:43.903+0900 DEBUG Writing [&quot;hello&quot;]
+2022-08-14T22:57:43.906+0900 DEBUG Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@60a4e619
+2022-08-14T22:57:43.907+0900 DEBUG Completed 200 OK
+2022-08-14T22:57:43.908+0900 DEBUG Chain processed normally
+2022-08-14T22:57:43.908+0900 DEBUG SecurityContextHolder now cleared, as request processing completed
+2022-08-14T22:57:43.927+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.927+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+2022-08-14T22:57:43.928+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.929+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+2022-08-14T22:57:43.930+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.931+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2022-08-14T22:57:43.931+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.932+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+2022-08-14T22:57:43.936+0900 DEBUG After test method: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@31cb96e1, testMethod = hello가_리턴된다@HelloControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-08-14T22:57:43.938+0900 DEBUG Retrieved @ProfileValueSourceConfiguration [null] for test class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:43.938+0900 DEBUG Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.jojoldu.book.springboot.web.HelloControllerTest]
+2022-08-14T22:57:43.939+0900 DEBUG Performing dependency injection for test context [[DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@732d078d, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+2022-08-14T22:57:43.939+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.940+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+2022-08-14T22:57:43.941+0900 DEBUG Before test method: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@732d078d, testMethod = helloDto가_리턴된다@HelloControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-08-14T22:57:43.942+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.948+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+2022-08-14T22:57:43.952+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:43.952+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+2022-08-14T22:57:43.954+0900 DEBUG Invoking method 'getFilters' on target object [FilterChainProxy[Filter Chains: [[ any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3af36922, org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e, org.springframework.security.web.header.HeaderWriterFilter@34cd65ac, org.springframework.security.web.csrf.CsrfFilter@1b31af02, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11bfffb3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@394fb736, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@609b041c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c68d0db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d3b881, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@539316bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@474e34e4, org.springframework.security.web.session.SessionManagementFilter@5c53c235, org.springframework.security.web.access.ExceptionTranslationFilter@27bc1d44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@394a6d2b]]]]] with arguments {org.springframework.mock.web.MockHttpServletRequest@58bad46f}
+2022-08-14T22:57:43.954+0900 DEBUG Getting field 'repo' from target object [org.springframework.security.web.context.SecurityContextPersistenceFilter@5940b14e] or target class [class org.springframework.security.web.context.SecurityContextPersistenceFilter]
+2022-08-14T22:57:43.955+0900 DEBUG No HttpSession currently exists
+2022-08-14T22:57:43.955+0900 DEBUG No SecurityContext was available from the HttpSession: null. A new one will be created.
+2022-08-14T22:57:43.955+0900 DEBUG HttpSession being created as SecurityContext is non-default
+2022-08-14T22:57:43.955+0900 DEBUG SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@ca25360: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER' stored to HttpSession: 'org.springframework.mock.web.MockHttpSession@7c0e4e4e
+2022-08-14T22:57:43.955+0900 DEBUG /hello/dto at position 1 of 15 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2022-08-14T22:57:43.956+0900 DEBUG /hello/dto at position 2 of 15 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2022-08-14T22:57:43.956+0900 DEBUG Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@ca25360: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER'
+2022-08-14T22:57:43.956+0900 DEBUG /hello/dto at position 3 of 15 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2022-08-14T22:57:43.956+0900 DEBUG /hello/dto at position 4 of 15 in additional filter chain; firing Filter: 'CsrfFilter'
+2022-08-14T22:57:43.957+0900 DEBUG /hello/dto at position 5 of 15 in additional filter chain; firing Filter: 'LogoutFilter'
+2022-08-14T22:57:43.957+0900 DEBUG Request 'GET /hello/dto' doesn't match 'POST /logout'
+2022-08-14T22:57:43.957+0900 DEBUG /hello/dto at position 6 of 15 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2022-08-14T22:57:43.957+0900 DEBUG Request 'GET /hello/dto' doesn't match 'POST /login'
+2022-08-14T22:57:43.957+0900 DEBUG /hello/dto at position 7 of 15 in additional filter chain; firing Filter: 'DefaultLoginPageGeneratingFilter'
+2022-08-14T22:57:43.957+0900 DEBUG /hello/dto at position 8 of 15 in additional filter chain; firing Filter: 'DefaultLogoutPageGeneratingFilter'
+2022-08-14T22:57:43.958+0900 DEBUG Checking match of request : '/hello/dto'; against '/logout'
+2022-08-14T22:57:43.958+0900 DEBUG /hello/dto at position 9 of 15 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2022-08-14T22:57:43.958+0900 DEBUG /hello/dto at position 10 of 15 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2022-08-14T22:57:43.958+0900 DEBUG saved request doesn't match
+2022-08-14T22:57:43.958+0900 DEBUG /hello/dto at position 11 of 15 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2022-08-14T22:57:43.958+0900 DEBUG /hello/dto at position 12 of 15 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2022-08-14T22:57:43.959+0900 DEBUG SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER'
+2022-08-14T22:57:43.960+0900 DEBUG /hello/dto at position 13 of 15 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2022-08-14T22:57:43.961+0900 DEBUG /hello/dto at position 14 of 15 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2022-08-14T22:57:43.961+0900 DEBUG /hello/dto at position 15 of 15 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2022-08-14T22:57:43.961+0900 DEBUG Secure object: FilterInvocation: URL: /hello/dto; Attributes: [authenticated]
+2022-08-14T22:57:43.961+0900 DEBUG Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ca25360: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_USER
+2022-08-14T22:57:43.962+0900 DEBUG Voter: org.springframework.security.web.access.expression.WebExpressionVoter@698ac187, returned: 1
+2022-08-14T22:57:43.962+0900 DEBUG Authorization successful
+2022-08-14T22:57:43.962+0900 DEBUG RunAsManager did not change Authentication object
+2022-08-14T22:57:43.962+0900 DEBUG /hello/dto reached end of additional filter chain; proceeding with original chain
+2022-08-14T22:57:43.963+0900 DEBUG GET &quot;/hello/dto&quot;, parameters={masked}
+2022-08-14T22:57:43.963+0900 DEBUG Mapped to public com.jojoldu.book.springboot.web.dto.HelloResponseDto com.jojoldu.book.springboot.web.HelloController.helloDto(java.lang.String,int)
+2022-08-14T22:57:44.092+0900 DEBUG Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-08-14T22:57:44.093+0900 DEBUG Writing [com.jojoldu.book.springboot.web.dto.HelloResponseDto@22c29aa8]
+2022-08-14T22:57:44.127+0900 DEBUG Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@60a4e619
+2022-08-14T22:57:44.127+0900 DEBUG Completed 200 OK
+2022-08-14T22:57:44.128+0900 DEBUG Chain processed normally
+2022-08-14T22:57:44.128+0900 DEBUG SecurityContextHolder now cleared, as request processing completed
+2022-08-14T22:57:44.202+0900 DEBUG Evaluating path: $['name']
+2022-08-14T22:57:44.213+0900 DEBUG Evaluating path: $['amount']
+2022-08-14T22:57:44.215+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:44.215+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+2022-08-14T22:57:44.215+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:44.216+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+2022-08-14T22:57:44.216+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:44.217+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+2022-08-14T22:57:44.218+0900 DEBUG Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]
+2022-08-14T22:57:44.218+0900 DEBUG Spring test ApplicationContext cache statistics: [DefaultContextCache@3a861417 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 13, missCount = 1]
+2022-08-14T22:57:44.221+0900 DEBUG After test method: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = com.jojoldu.book.springboot.web.HelloControllerTest@732d078d, testMethod = helloDto가_리턴된다@HelloControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2022-08-14T22:57:44.223+0900 DEBUG After test class: context [DefaultTestContext@29fc1a2b testClass = HelloControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4d0b0fd4 testClass = HelloControllerTest, locations = '{}', classes = '{class com.jojoldu.book.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7f9e1534, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@73163ad, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a7b1405e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27cbfddf, [ImportsContextCustomizer@7a24eb3 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4cee7fa0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7180e701, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 2022. 8. 14. 오후 10:58:04</p>
+</div>
+</div>
+</body>
+</html>

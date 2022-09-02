@@ -40,6 +40,7 @@ dependencies { //특정 버전을 명시하지 않아야 위에 작성한 ${spri
     implementation('org.springframework.boot:spring-boot-starter-log4j2')
     implementation('org.springframework.session:spring-session-jdbc')
     testImplementation('org.springframework.security:spring-security-test');
+    implementation('org.mariadb.jdbc:mariadb-java-client');
 }
 
 configurations{
